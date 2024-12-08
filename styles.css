@@ -1,0 +1,42 @@
+body {
+    
+}
+
+h1.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+h1.pyrimidTitle {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+div.pyrimidsHeader {
+    background-color: #a87b27;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+div.header {
+    background-color: gray;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+<a.Pyrimid {
+    
+}
+<a.home {
+    
+}
