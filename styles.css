@@ -8,6 +8,9 @@ h1.title {
     color: black;
     text-align: center;
 }
+p.info {
+    text-align: center;
+}
 
 h1.pyrimidTitle {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -34,9 +37,63 @@ div.header {
     top: -10px;
 }
 
-<a.Pyrimid {
-    
-}
-<a.home {
-    
-}
+
+
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.Pyrimid:hover, a.Pyrimid:active {
+    background-color: #a87b27;
+  }
+  :hover, :active {
+    background-color: #a87b27;
+  }
+  a.greatWall:hover, a.greatWall:active {
+    background-color: #696564;
+  }
+  :hover, :active {
+    background-color: #696564;
+  }
+  a.chichen:hover, a.chichen:active {
+    background-color: #450f01;
+  }
+  :hover, :active {
+    background-color: #450f01;
+  }
+  a.colosseum:hover, a.colosseum:active {
+    background-color: #674705;
+  }
+  :hover, :active {
+    background-color: #674705;
+  }
+  a.petra:hover, a.petra:active {
+    background-color: #541c29;
+  }
+  :hover, :active {
+    background-color: #541c29;
+  }
+  a.redeemer:hover, a.redeemer:active {
+    background-color: #858484;
+  }
+  :hover, :active {
+    background-color: #858484;
+  }
+  a.picchu:hover, a.picchu:active {
+    background-color: #22632c;
+  }
+  :hover, :active {
+    background-color: #22632c;
+  }
+  a.taj:hover, a.taj:active {
+    background-color: #9c9478;
+  }
+  :hover, :active {
+    background-color: #9c9478;
+  }
