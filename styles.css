@@ -36,7 +36,9 @@ div.header {
     left: -10px;
     top: -10px;
 }
-
+div.links {
+    text-align: center;
+}
 
 
 
