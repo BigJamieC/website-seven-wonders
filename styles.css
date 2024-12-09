@@ -10,9 +10,6 @@ h1.title {
     position: relative;
     top: -px;
     margin: 2;
-
-
-    
 }
 h1.titleHome {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,7 +39,69 @@ div.pyrimidsHeader {
     left: -10px;
     top: -10px;
 }
-
+div.greatWallHeader {
+  background-color: #696564;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+div.chichenHeader {
+  background-color: #450f01;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+div.colosseumHeader {
+  background-color: #674705;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+div.petraHeader {
+  background-color: #541c29;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+div.picchuHeader {
+  background-color: #22632c;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+div.redeemerHeader {
+  background-color: #858484;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
+div.tajHeader {
+  background-color: #9c9478;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+}
 div.header {
     background-color: gray;
     padding: 20px;
@@ -133,3 +192,26 @@ a:link, a:visited {
   :hover, :active {
     background-color: #9c9478;
   }
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+  }
+  ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+  }
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+li strong {
+  color: #5a0f94;
+}
