@@ -128,6 +128,7 @@ a:link, a:visited {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     margin: 5px;
+    border-radius: 10px;
   }
   a.home:link, a.home:visited {
     background-color: black;
@@ -147,49 +148,25 @@ a:link, a:visited {
   a.Pyrimid:hover, a.Pyrimid:active {
     background-color: #a87b27;
   }
-  :hover, :active {
-    background-color: #a87b27;
-  }
   a.greatWall:hover, a.greatWall:active {
-    background-color: #696564;
-  }
-  :hover, :active {
     background-color: #696564;
   }
   a.chichen:hover, a.chichen:active {
     background-color: #450f01;
   }
-  :hover, :active {
-    background-color: #450f01;
-  }
   a.colosseum:hover, a.colosseum:active {
-    background-color: #674705;
-  }
-  :hover, :active {
     background-color: #674705;
   }
   a.petra:hover, a.petra:active {
     background-color: #541c29;
   }
-  :hover, :active {
-    background-color: #541c29;
-  }
   a.redeemer:hover, a.redeemer:active {
-    background-color: #858484;
-  }
-  :hover, :active {
     background-color: #858484;
   }
   a.picchu:hover, a.picchu:active {
     background-color: #22632c;
   }
-  :hover, :active {
-    background-color: #22632c;
-  }
   a.taj:hover, a.taj:active {
-    background-color: #9c9478;
-  }
-  :hover, :active {
     background-color: #9c9478;
   }
   h2 {
