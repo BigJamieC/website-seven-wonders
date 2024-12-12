@@ -26,8 +26,26 @@ img.pyramid {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  
+  width: 30%;
+}
+img.tourist1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-right: 10%;
+  position: relative;
+  top: -50px;
+}
+img.tourist2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-left: 10%;
+  position: relative;
+  top: -50px;
+}
+div.images {
+  text-align: center;
 }
 div.feedbackheader {
   background-color: #730ca3;
@@ -126,7 +144,6 @@ div.links {
 }
 
 
-
 a:link, a:visited {
     background-color: black;
     color: white;
@@ -212,4 +229,31 @@ li {
 
 li strong {
   color: #5a0f94;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  display: block;
+ margin-bottom: 5px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+   background-color: #45a049;
 }
