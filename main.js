@@ -10,5 +10,10 @@ var sources = [
     "tourist6.png"
 ]
 
-image1.src = `./Images/${sources[Math.round(Math.random()*(sources.length-1))]}`
-image2.src = `./Images/${sources[Math.round(Math.random()*(sources.length-1))]}`
+var srcIndex = Math.round(Math.random()*(sources.length-1))
+var src1 = sources[srcIndex]
+sources.splice(srcIndex,1)
+var src2 = sources[Math.round(Math.random()*(sources.length-1))]
+
+image1.src = `./Images/${src1}`
+image2.src = `./Images/${src2}`
