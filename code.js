@@ -4,9 +4,13 @@
 // });
 
 var confirmationElement = document.querySelector('#confirmation')
+var url = location.href
 
-var urlData = location.href.split("?")[1].split("&")
-var firstName = urlData[0].split("=")[1]
-var lastName = urlData[1].split("=")[1]
+if(url.split("?").length == 2){
+    var urlData = location.href.split("?")[1].split("&")
+    var firstName = urlData[0].split("=")[1]
+    var lastName = urlData[1].split("=")[1]
 
-confirmationElement.innerHTML = `Thank you for partaking ${firstName} ${lastName}, your response has been submitted`
+    document.title = "Response Submitted"
+    confirmationElement.innerHTML = `Thank you for partaking ${firstName} ${lastName}, your response has been submitted`
+}
