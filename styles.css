@@ -121,7 +121,7 @@ div.redeemerHeader {
   top: -10px;
 }
 div.tajHeader {
-  background-color: #9c9478;
+  background-color: #fff7d1;
   padding-right: 10px;
   padding-left: 10px;
   width: 100%;
@@ -182,7 +182,9 @@ a:link, a:visited {
     top: 15;
     left:-20
   }
-
+  a:hover, a:active{
+    color: black;
+  }
   a.Pyramid:hover, a.Pyramid:active {
     background-color: #a87b27;
   }
@@ -205,7 +207,8 @@ a:link, a:visited {
     background-color: #22632c;
   }
   a.taj:hover, a.taj:active {
-    background-color: #9c9478;
+    background-color: #fff7d1;
+    color: black;
   }
   h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
