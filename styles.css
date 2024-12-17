@@ -1,28 +1,17 @@
-body {
-    
-}
-
-h1.title {
+h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     color: black;
     text-align: center;
-    position: relative;
-    top: -px;
+    position: relative; 
     margin: 2;
 }
-h1.titleHome {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 25px;
-  color: black;
-  text-align: center;
-}
-p.info {
+p {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
 }
-img.pyramid {
+img.image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -30,14 +19,12 @@ img.pyramid {
 }
 img.tourist1 {
   margin-left: auto;
-  margin-right: auto;
   width: 35%;
   margin-right: 10%;
   position: relative;
   top: -50px;
 }
 img.tourist2 {
-  margin-left: auto;
   margin-right: auto;
   width: 35%;
   margin-left: 10%;
@@ -47,87 +34,33 @@ img.tourist2 {
 div.images {
   text-align: center;
 }
-div.feedbackheader {
+div#feedbackheader {
   background-color: #730ca3;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
 
-div.pyramidsHeader {
+div#pyramidsHeader {
     background-color: #a87b27;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 100%;
-    position: relative;
-    left: -10px;
-    top: -10px;
 }
-div.greatWallHeader {
+div#greatWallHeader {
   background-color: #696564;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
-div.chichenHeader {
+div#chichenHeader {
   background-color: #450f01;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
-div.colosseumHeader {
+div#colosseumHeader {
   background-color: #674705;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
-div.petraHeader {
+div#petraHeader {
   background-color: #541c29;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
-div.picchuHeader {
+div#picchuHeader {
   background-color: #22632c;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
-div.redeemerHeader {
+div#redeemerHeader {
   background-color: #858484;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
-div.tajHeader {
+div#tajHeader {
   background-color: #fff7d1;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-  position: relative;
-  left: -10px;
-  top: -10px;
 }
 div.header {
     background-color: gray;
@@ -145,81 +78,62 @@ div.links {
 
 
 a:link, a:visited {
-    background-color: black;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    margin: 5px;
-    border-radius: 10px;
-  }
-  a.feedback:link, a.feedback:visited {
-    background-color: rgb(95, 2, 107);
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    margin: 5px;
-    border-radius: 10px;
-  }  
-  a.home:link, a.home:visited {
-    background-color: black;
-    color: white;
-    padding: 0px 0px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    margin: 5px;
-    position: relative;
-    top: 15;
-    left:-20
-  }
-  a:hover, a:active{
-    color: black;
-  }
-  a.Pyramid:hover, a.Pyramid:active {
-    background-color: #a87b27;
-  }
-  a.greatWall:hover, a.greatWall:active {
-    background-color: #696564;
-  }
-  a.chichen:hover, a.chichen:active {
-    background-color: #450f01;
-  }
-  a.colosseum:hover, a.colosseum:active {
-    background-color: #674705;
-  }
-  a.petra:hover, a.petra:active {
-    background-color: #541c29;
-  }
-  a.redeemer:hover, a.redeemer:active {
-    background-color: #858484;
-  }
-  a.picchu:hover, a.picchu:active {
-    background-color: #22632c;
-  }
-  a.taj:hover, a.taj:active {
-    background-color: #fff7d1;
-    color: black;
-  }
-  h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
-  }
-  ul {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
-  }
-
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+a.feedback:link, a.feedback:visited {
+  background-color: rgb(95, 2, 107);
+}  
+a.home:link, a.home:visited {
+  background-color: black;
+  padding: 0px 0px;
+  text-align: left;
+  position: relative;
+  top: 15px;
+}
+a:hover, a:active{
+  color: black;
+}
+a.Pyramid:hover, a.Pyramid:active {
+  background-color: #a87b27;
+}
+a.greatWall:hover, a.greatWall:active {
+  background-color: #696564;
+}
+a.chichen:hover, a.chichen:active {
+  background-color: #450f01;
+}
+a.colosseum:hover, a.colosseum:active {
+  background-color: #674705;
+}
+a.petra:hover, a.petra:active {
+  background-color: #541c29;
+}
+a.redeemer:hover, a.redeemer:active {
+  background-color: #858484;
+}
+a.picchu:hover, a.picchu:active {
+  background-color: #22632c;
+}
+a.taj:hover, a.taj:active {
+  background-color: #fff7d1;
+  color: black;
+}
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+}
 ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
   list-style-type: disc;
   padding-left: 20px;
 }
@@ -242,7 +156,7 @@ form {
 }
 label {
   display: block;
- margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 input, textarea {
   width: 100%;
